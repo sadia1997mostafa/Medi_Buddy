@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgg"
+    tools:context=".AddMedicineActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/titleAddMedicine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Medicine"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/edit_text_medicine_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Medicine ID"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/edit_text_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Medicine Name"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/edit_text_generic_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Generic Name"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/edit_text_active_ingredient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Active Ingredient amount (g/mg/ml)"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/edit_text_price_per_unit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Price Per Unit"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/edit_text_units_per_strip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Units Per Strip"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/edit_text_price_per_strip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Price Per Strip"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/edit_text_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Price (ml/l)"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/edit_text_company_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Company Name"
+            android:minHeight="48dp" />
+
+        <ImageView
+            android:id="@+id/image_view"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginBottom="16dp"
+            android:background="@android:color/darker_gray"
+            android:contentDescription="Medicine Image" />
+
+        <Button
+            android:id="@+id/button_select_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Image" />
+
+        <Button
+            android:id="@+id/button_select_categories"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Categories" />
+
+        <Button
+            android:id="@+id/button_add_medicine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Medicine" />
+
+    </LinearLayout>
+</ScrollView>

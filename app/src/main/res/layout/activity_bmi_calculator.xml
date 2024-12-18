@@ -1,0 +1,63 @@
+<!-- res/layout/activity_bmi_calculator.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edit_text_weight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Weight (kg)"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/edit_text_height"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Height (cm)"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/edit_text_sex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Sex (m/f)"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/edit_text_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Age"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/edit_text_waist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Waist (cm)"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/edit_text_hip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hip (cm)"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/button_calculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate BMI" />
+
+    <TextView
+        android:id="@+id/text_view_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+</LinearLayout>

@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Type of Medicine -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Type of Medicine"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/checkbox_prescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Prescription Medicines" />
+
+        <CheckBox
+            android:id="@+id/checkbox_otc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Over-the-Counter (OTC) Medicines" />
+
+        <CheckBox
+            android:id="@+id/checkbox_herbal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Herbal and Natural Remedies" />
+
+        <CheckBox
+            android:id="@+id/checkbox_homeopathic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Homeopathic Medicines" />
+
+        <CheckBox
+            android:id="@+id/checkbox_ayurvedic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ayurvedic Medicines" />
+
+        <!-- Purpose/Use -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Purpose/Use"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/checkbox_pain_relief"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pain Relief" />
+
+        <CheckBox
+            android:id="@+id/checkbox_cold_flu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cold and Flu" />
+
+        <CheckBox
+            android:id="@+id/checkbox_digestive_health"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Digestive Health" />
+
+        <CheckBox
+            android:id="@+id/checkbox_allergy_sinus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Allergy and Sinus" />
+
+        <CheckBox
+            android:id="@+id/checkbox_vitamins_supplements"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vitamins and Supplements" />
+
+        <CheckBox
+            android:id="@+id/checkbox_skin_care"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Skin Care and Dermatology" />
+
+        <CheckBox
+            android:id="@+id/checkbox_mental_health"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mental Health and Stress Relief" />
+
+        <CheckBox
+            android:id="@+id/checkbox_cardiovascular_health"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cardiovascular Health" />
+
+        <CheckBox
+            android:id="@+id/checkbox_diabetes_care"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Diabetes Care" />
+
+        <CheckBox
+            android:id="@+id/checkbox_orthopedic_care"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Orthopedic Care" />
+
+        <!-- Medical Conditions -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medical Conditions"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/checkbox_diabetes_management"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Diabetes Management" />
+
+        <CheckBox
+            android:id="@+id/checkbox_hypertension"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hypertension" />
+
+        <CheckBox
+            android:id="@+id/checkbox_arthritis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Arthritis" />
+
+        <CheckBox
+            android:id="@+id/checkbox_asthma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Asthma and Respiratory Disorders" />
+
+        <CheckBox
+            android:id="@+id/checkbox_immunity_boosters"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Immunity Boosters" />
+
+        <CheckBox
+            android:id="@+id/checkbox_chronic_pain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chronic Pain" />
+
+        <CheckBox
+            android:id="@+id/checkbox_seasonal_allergies"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seasonal Allergies" />
+
+        <CheckBox
+            android:id="@+id/checkbox_stomach_gut_health"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stomach and Gut Health" />
+
+        <!-- Age Group -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Age Group"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/checkbox_children_medicine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Children's Medicine" />
+
+        <CheckBox
+            android:id="@+id/checkbox_adult_medicine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Adult Medicine" />
+
+        <CheckBox
+            android:id="@+id/checkbox_senior_medicine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Senior Medicine" />
+
+        <CheckBox
+            android:id="@+id/checkbox_pregnancy_maternity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pregnancy and Maternity" />
+
+        <!-- Formulation -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Formulation"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/checkbox_tablets_capsules"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tablets and Capsules" />
+
+        <CheckBox
+            android:id="@+id/checkbox_syrups_liquids"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Syrups and Liquids" />
+
+        <CheckBox
+            android:id="@+id/checkbox_topical_creams"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Topical Creams and Ointments" />
+
+        <CheckBox
+            android:id="@+id/checkbox_injections"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Injections" />
+
+        <CheckBox
+            android:id="@+id/checkbox_patches"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Patches" />
+
+        <CheckBox
+            android:id="@+id/checkbox_drops"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Drops (Eye/Ear)" />
+
+        <!-- Specialty Categories -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Specialty Categories"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/checkbox_diabetic_supplies"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Diabetic Supplies" />
+
+        <CheckBox
+            android:id="@+id/checkbox_first_aid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="First Aid and Bandages" />
+
+        <CheckBox
+            android:id="@+id/checkbox_personal_care"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Personal Care Products" />
+
+        <CheckBox
+            android:id="@+id/checkbox_medical_equipment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medical Equipment (e.g., thermometers, blood pressure monitors)" />
+
+    </LinearLayout>
+</ScrollView>

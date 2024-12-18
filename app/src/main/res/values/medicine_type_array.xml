@@ -1,0 +1,9 @@
+<!-- res/values/strings.xml -->
+<resources>
+    <!-- Other string resources -->
+
+    <string-array name="medicine_type_array">
+        <item>Solid</item>
+        <item>Liquid</item>
+    </string-array>
+</resources>

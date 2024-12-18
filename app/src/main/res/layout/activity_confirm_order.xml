@@ -1,0 +1,114 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:background="#80ADD8E6"> <!-- Light blue with 50% transparency -->
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Order"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_span="2"
+                android:paddingBottom="8dp" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name:"
+                android:textSize="18sp"
+                android:paddingBottom="8dp" />
+            <TextView
+                android:id="@+id/text_view_product_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Product Name"
+                android:textSize="18sp"
+                android:paddingBottom="8dp" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Price (For mL/L):"
+                android:textSize="18sp"
+                android:paddingBottom="8dp" />
+            <TextView
+                android:id="@+id/text_view_product_price1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Price (For mL/L)"
+                android:textSize="18sp"
+                android:paddingBottom="8dp" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Price per Strip:"
+                android:textSize="18sp"
+                android:paddingBottom="8dp" />
+            <TextView
+                android:id="@+id/text_view_product_price2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Price per Strip"
+                android:textSize="18sp"
+                android:paddingBottom="8dp" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total Price:"
+                android:textSize="18sp"
+                android:paddingBottom="8dp" />
+            <TextView
+                android:id="@+id/text_view_total_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total Price"
+                android:textSize="18sp"
+                android:paddingBottom="8dp" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enter Location:"
+                android:textSize="18sp"
+                android:paddingBottom="8dp" />
+            <EditText
+                android:id="@+id/edit_text_location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter your location"
+                android:inputType="text"
+                android:paddingBottom="8dp" />
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:id="@+id/button_confirm_order"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Confirm Order"
+                android:layout_gravity="center"
+                android:paddingTop="16dp" />
+        </TableRow>
+    </TableLayout>
+</ScrollView>

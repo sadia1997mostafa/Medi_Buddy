@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="darkest_blue_transparent">#8000008B</color>
+    <color name="button_background_color">#2196F3</color> <!-- Holo Blue Light -->
+    <color name="button_remove_background_color">#F44336</color> <!-- Holo Red Light -->
+    <!-- Primary Colors -->
+    <color name="colorPrimary">#6200EE</color> <!-- Deep Purple -->
+    <color name="colorPrimaryDark">#3700B3</color> <!-- Darker Purple -->
+    <color name="colorAccent">#03DAC5</color> <!-- Teal -->
+    <color name="light_blue_transparent">#80ADD8E6</color>
+
+    <color name="dark_blue_transparent">#801E88E5</color>
+    <color name="dark_text_color">#000000</color> <!-- Black color for dark text -->
+    <color name="button_bg_color">#0D47A1</color> <!-- Darker Blue -->
+    <color name="button_text_color">#E3F2FD</color> <!-- Lighter Text -->
+    <!-- Neutrals -->
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorGrayLight">#D3D3D3</color> <!-- Light Gray -->
+    <color name="colorGrayDark">#808080</color> <!-- Dark Gray -->
+
+    <!-- Real-world Colors -->
+    <color name="colorSkyBlue">#87CEEB</color> <!-- Sky Blue -->
+    <color name="colorGrassGreen">#32CD32</color> <!-- Grass Green -->
+    <color name="colorSunsetOrange">#FF4500</color> <!-- Sunset Orange -->
+    <color name="colorOceanBlue">#1E90FF</color> <!-- Ocean Blue -->
+    <color name="colorSandBeige">#F5DEB3</color> <!-- Sand Beige -->
+    <color name="colorMidnightBlue">#191970</color> <!-- Midnight Blue -->
+    <color name="colorSunshineYellow">#FFD700</color> <!-- Sunshine Yellow -->
+    <color name="colorRoseRed">#FF007F</color> <!-- Rose Red -->
+    <color name="colorEarthBrown">#A0522D</color> <!-- Earth Brown -->
+    <color name="colorCloudGray">#B0C4DE</color> <!-- Cloudy Gray -->
+
+    <!-- Modern UI Colors -->
+    <color name="colorSuccessGreen">#28A745</color> <!-- Success Messages -->
+    <color name="colorErrorRed">#DC3545</color> <!-- Error Messages -->
+    <color name="colorWarningYellow">#FFC107</color> <!-- Warning -->
+    <color name="colorInfoBlue">#17A2B8</color> <!-- Information -->
+    <color name="colorNeutralBackground">#F8F9FA</color> <!-- Light Background -->
+    <color name="colorPrimaryText">#212121</color> <!-- Text - Primary -->
+    <color name="colorSecondaryText">#757575</color> <!-- Text - Secondary -->
+
+    <!-- Pastels -->
+    <color name="colorPastelPink">#FFD1DC</color>
+    <color name="colorPastelBlue">#AEC6CF</color>
+    <color name="colorPastelGreen">#77DD77</color>
+    <color name="colorPastelYellow">#FDFD96</color>
+    <color name="colorPastelPurple">#CBAACB</color>
+
+    <!-- Light Blues -->
+    <color name="colorBabyBlue">#89CFF0</color> <!-- Baby Blue -->
+    <color name="colorAliceBlue">#F0F8FF</color> <!-- Alice Blue -->
+    <color name="colorPowderBlue">#B0E0E6</color> <!-- Powder Blue -->
+    <color name="colorIceBlue">#E0FFFF</color> <!-- Ice Blue -->
+
+    <!-- Standard Blues -->
+    <color name="colorDodgerBlue">#1E90FF</color> <!-- Dodger Blue -->
+    <color name="colorRoyalBlue">#4169E1</color> <!-- Royal Blue -->
+    <color name="colorSteelBlue">#4682B4</color> <!-- Steel Blue -->
+    <color name="colorCornflowerBlue">#6495ED</color> <!-- Cornflower Blue -->
+
+    <!-- Dark Blues -->
+    <color name="colorNavyBlue">#000080</color> <!-- Navy Blue -->
+    <color name="colorIndigoBlue">#4B0082</color> <!-- Indigo Blue -->
+    <color name="colorDarkSlateBlue">#483D8B</color> <!-- Dark Slate Blue -->
+    <color name="colorTealBlue">#367588</color> <!-- Teal Blue -->
+    <color name="dark_blue">#0D47A1</color>
+    <color name="dark_blue_variant">#1565C0</color>
+
+    <!-- Lighter Shades of Blue -->
+    <color name="blue_light">#1976D2</color>
+    <color name="blue_lighter">#42A5F5</color>
+
+    <!-- Accent Colors -->
+    <color name="blue_accent">#1E88E5</color>
+    <color name="blue_accent_light">#2196F3</color>
+
+    <!-- Additional Shades -->
+    <color name="blue_gray">#29434E</color>
+    <color name="blue_muted">#455A64</color>
+
+    <!-- Background and Text -->
+    <color name="blue_background">#121212</color>
+    <color name="blue_text">#E3F2FD</color>
+
+    <!-- Vivid and Bright Blues -->
+    <color name="colorElectricBlue">#7DF9FF</color> <!-- Electric Blue -->
+    <color name="colorTurquoiseBlue">#40E0D0</color> <!-- Turquoise Blue -->
+    <color name="colorCyanBlue">#00FFFF</color> <!-- Cyan Blue -->
+    <color name="colorAzureBlue">#007FFF</color> <!-- Azure Blue -->
+
+    <!-- Blue-Green Mix -->
+    <color name="colorAquamarine">#7FFFD4</color> <!-- Aquamarine -->
+    <color name="colorAquaBlue">#00BFFF</color> <!-- Aqua Blue -->
+
+    <!-- Muted Blues -->
+    <color name="colorSlateBlue">#6A5ACD</color> <!-- Slate Blue -->
+    <color name="colorDuskyBlue">#6699CC</color> <!-- Dusky Blue -->
+
+    <!-- Misc -->
+    <color name="colorLightPeriwinkle">#C5CBE1</color> <!-- Light Periwinkle -->
+    <color name="colorBabyPowderBlue">#D4F1F4</color> <!-- Baby Powder Blue -->
+
+        <!-- Additional Light Blues -->
+        <color name="colorCeleste">#B2FFFF</color> <!-- Celeste -->
+        <color name="colorSkyMist">#C9EAF3</color> <!-- Sky Mist -->
+        <color name="colorPaleBlue">#AFEEEE</color> <!-- Pale Blue -->
+        <color name="colorLightCyan">#E0FFFF</color> <!-- Light Cyan -->
+        <color name="colorRobinEggBlue">#96DED1</color> <!-- Robin Egg Blue -->
+        <color name="colorMorningBlue">#8DA5C9</color> <!-- Morning Blue -->
+        <color name="colorPeriwinkleBlue">#CCCCFF</color> <!-- Periwinkle Blue -->
+        <color name="colorLightAzure">#F0FFFF</color> <!-- Light Azure -->
+        <color name="colorLavenderBlue">#E6E6FA</color> <!-- Lavender Blue -->
+        <color name="colorBlueChalk">#F1F6F9</color> <!-- Blue Chalk -->
+        <color name="colorSoftBlue">#ADD8E6</color> <!-- Soft Blue -->
+        <color name="colorIcebergBlue">#71A6D2</color> <!-- Iceberg Blue -->
+        <color name="colorDewBlue">#D7EEFF</color> <!-- Dew Blue -->
+        <color name="colorBlueBlossom">#E3F2FD</color> <!-- Blue Blossom -->
+        <color name="colorFogBlue">#DAF0FF</color> <!-- Fog Blue -->
+        <color name="colorBreezeBlue">#CCFFFF</color> <!-- Breeze Blue -->
+        <color name="colorCrystalBlue">#C4E4F0</color> <!-- Crystal Blue -->
+
+
+</resources>

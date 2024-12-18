@@ -1,0 +1,79 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_blue"
+    android:padding="16dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:background="@color/colorBlueBlossom"
+        android:layout_margin="16dp">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hospital Details"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="16dp"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/label_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name:"
+            android:textStyle="bold"
+            android:layout_below="@id/title"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/hospital_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/label_name"
+            android:layout_alignBaseline="@id/label_name"
+            android:layout_marginStart="8dp"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/label_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address:"
+            android:textStyle="bold"
+            android:layout_below="@id/label_name"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/hospital_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/label_address"
+            android:layout_alignBaseline="@id/label_address"
+            android:layout_marginStart="8dp"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/label_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone:"
+            android:textStyle="bold"
+            android:layout_below="@id/label_address"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/hospital_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/label_phone"
+            android:layout_alignBaseline="@id/label_phone"
+            android:layout_marginStart="8dp"
+            android:textColor="@android:color/black" />
+    </RelativeLayout>
+</ScrollView>

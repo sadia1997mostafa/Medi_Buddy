@@ -1,0 +1,51 @@
+<!-- item_product_detail.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/text_view_product_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Product Name"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/image_view_product"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/no_profile_pic"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/text_view_product_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Product ID: 12345"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/text_view_price1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price 1: $10.00"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/text_view_price2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price 2: $12.00"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/text_view_price3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price 3: $15.00"
+        android:textSize="16sp"/>
+</LinearLayout>

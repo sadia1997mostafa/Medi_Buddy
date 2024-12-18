@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- Order Details Section -->
+        <TextView
+            android:id="@+id/text_view_order_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Order Details"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp" />
+
+        <LinearLayout
+            android:id="@+id/product_details_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+        </LinearLayout>
+
+        <!-- Customer Details Section -->
+        <TextView
+            android:id="@+id/text_view_customer_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email: john.doe@example.com"
+            android:paddingBottom="4dp" />
+
+        <TextView
+            android:id="@+id/text_view_customer_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Location: 123 Main St, City, Country"
+            android:paddingBottom="4dp" />
+
+        <TextView
+            android:id="@+id/text_view_total_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Price: 0 tk"
+            android:paddingBottom="16dp" />
+
+        <!-- Buttons Section -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/button_confirm_order"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Confirm Order"
+                android:layout_marginEnd="16dp" />
+
+            <Button
+                android:id="@+id/button_cancel_order"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cancel Order" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

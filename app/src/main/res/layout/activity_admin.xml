@@ -1,0 +1,91 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textView_admin_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Admin Details"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/textView_admin_dob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date of Birth:"
+        android:layout_below="@id/textView_admin_title"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/editText_admin_dob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Date of Birth"
+        android:inputType="date"
+        android:layout_below="@id/textView_admin_dob"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/textView_admin_gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gender:"
+        android:layout_below="@id/editText_admin_dob"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/editText_admin_gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Gender"
+        android:layout_below="@id/textView_admin_gender"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/textView_admin_mobile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mobile:"
+        android:layout_below="@id/editText_admin_gender"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/editText_admin_mobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Mobile Number"
+        android:inputType="phone"
+        android:layout_below="@id/textView_admin_mobile"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/textView_admin_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email:"
+        android:layout_below="@id/editText_admin_mobile"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/editText_admin_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Email"
+        android:inputType="textEmailAddress"
+        android:layout_below="@id/textView_admin_email"
+        android:layout_marginTop="5dp"/>
+
+    <Button
+        android:id="@+id/button_store_admin_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Store Admin Details"
+        android:layout_below="@id/editText_admin_email"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+</RelativeLayout>

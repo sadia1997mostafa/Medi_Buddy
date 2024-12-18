@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/colorAliceBlue">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Medicine's Details"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:textColor="@color/dark_text_color"
+                android:paddingBottom="16dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+            <ImageView
+                android:id="@+id/image_view"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:background="@android:color/darker_gray"
+                android:contentDescription="Medicine Image" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name:"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@color/dark_text_color"
+                android:paddingEnd="8dp" />
+            <TextView
+                android:id="@+id/text_view_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="@color/dark_text_color" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Generic Name:"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@color/dark_text_color"
+                android:paddingEnd="8dp" />
+            <TextView
+                android:id="@+id/text_view_generic_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="@color/dark_text_color" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Active Ingredient:"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@color/dark_text_color"
+                android:paddingEnd="8dp" />
+            <TextView
+                android:id="@+id/text_view_active_ingredient"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="@color/dark_text_color" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Price(for mL/L):"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@color/dark_text_color"
+                android:paddingEnd="8dp" />
+            <TextView
+                android:id="@+id/text_view_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="@color/dark_text_color" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Price Per Unit:"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@color/dark_text_color"
+                android:paddingEnd="8dp" />
+            <TextView
+                android:id="@+id/text_view_price_per_unit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="@color/dark_text_color" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Units Per Strip:"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@color/dark_text_color"
+                android:paddingEnd="8dp" />
+            <TextView
+                android:id="@+id/text_view_units_per_strip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="@color/dark_text_color" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Company Name:"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@color/dark_text_color"
+                android:paddingEnd="8dp" />
+            <TextView
+                android:id="@+id/text_view_company_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="@color/dark_text_color" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Price Per Strip:"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@color/dark_text_color"
+                android:paddingEnd="8dp" />
+            <TextView
+                android:id="@+id/text_view_price_per_strip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="@color/dark_text_color" />
+        </TableRow>
+
+    </TableLayout>
+
+    <!-- Buttons outside the TableLayout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="100dp">
+        <Button
+            android:layout_width="150dp"
+            android:id="@+id/button_add_to_cart"
+            android:layout_height="60dp"
+            android:text="Add to Cart"
+            android:backgroundTint="@color/dark_blue"
+            android:textColor="@color/button_text_color"
+            android:layout_marginEnd="8dp" />
+        <Button
+            android:layout_width="150dp"
+            android:id="@+id/button_buy_medicine"
+            android:layout_height="60dp"
+            android:text="Buy Medicine"
+            android:backgroundTint="@color/dark_blue"
+            android:textColor="@color/button_text_color" />
+    </LinearLayout>
+</LinearLayout>

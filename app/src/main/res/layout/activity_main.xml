@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/colorIceBlue">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:padding="15dp"
+        android:background="@color/colorAliceBlue">
+
+        <ImageView
+            android:id="@+id/imageview_logo1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"
+            android:adjustViewBounds="true"
+            android:maxWidth="180dp"
+            android:src="@drawable/logo4" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:textAlignment="center"
+            android:text="MediBuddy"
+            android:textStyle="bold"
+            android:textSize="34dp"
+
+            />
+
+        <TextView
+            android:id="@+id/hello"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Hello it's your friend"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/welcome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+
+            android:text="Welcome to the Android MediDelivery App"
+            android:textSize="34dp"
+            android:textAlignment="center"
+            android:layout_below="@id/imageview_logo1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_login"
+            android:text="Login"
+            android:layout_marginTop="90dp"
+            android:layout_below="@+id/welcome"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_register"
+            android:text="Register"
+
+            android:layout_below="@+id/button_login"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp"
+            />
+
+
+    </RelativeLayout>
+
+</ScrollView>
